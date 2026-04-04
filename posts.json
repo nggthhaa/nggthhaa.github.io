@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Children's Hospital 2 — Pediatrics Department",
+    "hospital": "Children's Hospital 2",
+    "department": "Pediatrics",
+    "date": "2026-03-01",
+    "duration": "8 weeks",
+    "category": "Clinical Rotation",
+    "excerpt": "My clinical rotation at Children's Hospital 2, one of the largest pediatric hospitals in Ho Chi Minh City, where I gained hands-on experience in diagnosing and managing common pediatric conditions.",
+    "slug": "childrens-hospital-2"
+  },
+  {
+    "title": "Thong Nhat Hospital — Infectious Diseases Department",
+    "hospital": "Thong Nhat Hospital",
+    "department": "Infectious Diseases",
+    "date": "2026-01-15",
+    "duration": "6 weeks",
+    "category": "Clinical Rotation",
+    "excerpt": "My rotation at Thong Nhat Hospital's Infectious Diseases Department, where I gained experience in diagnosing and managing a wide spectrum of infectious diseases prevalent in Southern Vietnam.",
+    "slug": "thong-nhat-hospital"
+  }
+]
