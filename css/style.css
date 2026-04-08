@@ -1,13 +1,13 @@
 /* ===== CSS Custom Properties ===== */
 :root {
-  /* Pastel Yellow Palette */
-  --green-50: #fffdf3;
-  --green-100: #fff9e6;
-  --green-200: #fff0c2;
-  --green-300: #ffe699;
-  --green-400: #f9dc75;
-  --green-500: #efd15a;
-  --green-600: #e0c047;
+  /* Pastel Blue Palette */
+  --green-50: #f4f9ff;
+  --green-100: #e8f2ff;
+  --green-200: #cfe4ff;
+  --green-300: #b6d6ff;
+  --green-400: #8ebeff;
+  --green-500: #6fa9f5;
+  --green-600: #4f8fdf;
 
   /* Neutrals */
   --white: #ffffff;
@@ -23,9 +23,9 @@
   --gray-900: #2c2c2c;
 
   /* Accent */
-  --accent: #a38620;
-  --accent-light: #c6a82c;
-  --accent-dark: #856b1a;
+  --accent: #2f73c6;
+  --accent-light: #4a8cdd;
+  --accent-dark: #245da4;
 
   /* Typography */
   --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -139,14 +139,14 @@ body::after {
   z-index: 1000;
   padding: var(--space-md) var(--space-xl);
   transition: all var(--transition-normal);
-  background: rgba(255, 244, 210, 0.78);
+  background: rgba(232, 242, 255, 0.78);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(237, 209, 120, 0.35);
+  border-bottom: 1px solid rgba(143, 189, 248, 0.35);
 }
 
 .navbar.scrolled {
-  background: rgba(255, 236, 190, 0.94);
+  background: rgba(219, 234, 255, 0.94);
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
   box-shadow: var(--shadow-md);
@@ -192,7 +192,7 @@ body::after {
 
 .nav-links a:hover {
   color: var(--accent);
-  background: rgba(245, 224, 160, 0.2);
+  background: rgba(182, 214, 255, 0.25);
 }
 
 .nav-links a.active {
@@ -258,7 +258,7 @@ body::after {
   position: absolute;
   inset: 0;
   border-radius: var(--radius-full);
-  background: linear-gradient(135deg, rgba(245, 224, 160, 0.1) 0%, transparent 50%);
+  background: linear-gradient(135deg, rgba(182, 214, 255, 0.16) 0%, transparent 50%);
   pointer-events: none;
 }
 
@@ -344,12 +344,12 @@ body::after {
 .btn-primary {
   background: linear-gradient(135deg, var(--green-400), var(--green-500));
   color: var(--gray-900);
-  box-shadow: 0 4px 14px rgba(224, 192, 71, 0.35);
+  box-shadow: 0 4px 14px rgba(79, 143, 223, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(224, 192, 71, 0.45);
+  box-shadow: 0 6px 20px rgba(79, 143, 223, 0.42);
   color: var(--gray-900);
 }
 
@@ -405,7 +405,7 @@ body::after {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(245, 224, 160, 0.25);
+  border: 1px solid rgba(182, 214, 255, 0.3);
   padding: var(--space-xl);
   box-shadow: var(--shadow-md);
   transition: all var(--transition-normal);
@@ -414,7 +414,7 @@ body::after {
 .glass-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
-  border-color: rgba(245, 224, 160, 0.45);
+  border-color: rgba(143, 189, 248, 0.5);
 }
 
 /* ===== Highlights Grid (Home Page) ===== */
@@ -511,7 +511,7 @@ body::after {
 .timeline-item:hover .timeline-dot {
   background: var(--green-600);
   transform: scale(1.15);
-  box-shadow: 0 0 0 6px rgba(224, 192, 71, 0.28);
+  box-shadow: 0 0 0 6px rgba(79, 143, 223, 0.24);
 }
 
 .timeline-card {
